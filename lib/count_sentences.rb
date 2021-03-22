@@ -18,7 +18,6 @@ class String
   self.split(/\.|\!|\?/).delete_if do |e|
     e.size < 1
     end.count
-    binding.pry
   end
 end
 #  binding.pry
